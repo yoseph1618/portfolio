@@ -4,16 +4,16 @@ import Content from './Content.jsx';
 import { capitalizeFirstLetter } from './helpers';
 import { Outlet } from 'react-router-dom';
 
-function Page({ currentPage }) {
-  currentPage = currentPage.substring(1);
+function Page({ openPage }) {
+  openPage = openPage.substring(1);
 
   useEffect(() => {
-    document.title = capitalizeFirstLetter(currentPage);
-  }, [currentPage]);
+    document.title = capitalizeFirstLetter(openPage);
+  }, [openPage]);
 
   return (
     <section>
-      <h2>{capitalizeFirstLetter(currentPage)}</h2>
+      <h2>{capitalizeFirstLetter(openPage)}</h2>
 
       <Content>
         <Outlet />

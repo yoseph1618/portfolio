@@ -2,7 +2,7 @@ import { removeHyphensAndCapitalize } from './helpers.js';
 import * as projects from './assets/index.js';
 
 function Project({ project }) {
-  const { name, repo, link, description } = project;
+  const { name, repo, link, description, } = project;
 
   return (
     <div className="project" key={name}>

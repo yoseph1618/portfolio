@@ -23,24 +23,6 @@ function Portfolio() {
       link: "https://github.com/yoseph1618",
       repo: "https://github.com/yoseph1618"
     },
-    {
-      name: 'comingSoon',
-      description: 'PlaceHolder4',
-      link: "https://github.com/yoseph1618",
-      repo: "https://github.com/yoseph1618"
-    },
-    {
-      name: 'comingSoon',
-      description: 'PlaceHolder5',
-      link: "https://github.com/yoseph1618",
-      repo: "https://github.com/yoseph1618"
-    },
-    {
-      name: 'comingSoon',
-      description: 'PlaceHolder6',
-      link: "https://github.com/yoseph1618",
-      repo: "https://github.com/yoseph1618"
-    },
   ]);
 
   return (

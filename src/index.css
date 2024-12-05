@@ -52,7 +52,7 @@ h6 {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   margin: 50px 20px;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -188,8 +188,8 @@ header img {
 nav {
   position: relative;
   font-family: 'Aladin', cursive;
-  font-size: 1.8rem;
-  margin: 20px 10px;
+  font-size: 2rem;
+  margin: 30px;
 }
 
 nav a:hover {
@@ -233,6 +233,7 @@ textarea {
   padding: 5px;
   margin-top: 10px;
 }
+
 
 .container {
   width: 85%;

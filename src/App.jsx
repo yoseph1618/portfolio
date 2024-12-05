@@ -5,16 +5,16 @@ import Page from "./page.jsx";
 import { useLocation } from "react-router-dom";
 
 function App() {
-  const currentPage = useLocation().pathname;
+  const openPage = useLocation().pathname;
 
 
   return (
     <div>
       <Header>
-        <Nav currentPage={currentPage} />
+        <Nav openPage={openPage} />
       </Header>
       <main>
-        <Page currentPage={currentPage} />
+        <Page openPage={openPage} />
       </main>
       <Footer />
     </div>
