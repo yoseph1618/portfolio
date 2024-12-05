@@ -12,6 +12,7 @@
   ## Features
   ```
   Past projects I've worked on are linked and available to see within the portfolio section of the website.
+  Code was used throughout this project from various sources in the bootcamp I attended and Chatgpt.
   ```
   
   ## Questions
